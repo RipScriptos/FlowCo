@@ -1,0 +1,47 @@
+# Core dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+python-multipart==0.0.6
+
+# AI and ML
+openai==1.3.7
+anthropic==0.7.7
+transformers==4.35.2
+torch==2.1.1
+torchvision==0.16.1
+sentence-transformers==2.2.2
+scikit-learn==1.3.2
+numpy==1.24.4
+pandas==2.1.4
+
+# Image processing
+Pillow==10.1.0
+opencv-python==4.8.1.78
+
+# Web scraping and APIs
+requests==2.31.0
+beautifulsoup4==4.12.2
+aiohttp==3.9.1
+
+# Configuration and environment
+python-dotenv==1.0.0
+pyyaml==6.0.1
+
+# Report generation
+jinja2==3.1.2
+markdown==3.5.1
+weasyprint==60.2
+reportlab==4.0.7
+
+# Database (optional, for caching)
+sqlite3
+
+# Development and testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+flake8==6.1.0
+
+# Optional local model support
+ollama==0.1.7
