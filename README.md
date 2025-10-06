@@ -84,25 +84,36 @@ FlowCo is a sophisticated AI system that analyzes business concepts across multi
 
 ### 5-Minute Setup
 
-```bash
 # 1. Clone the repository
+```bash
 git clone https://github.com/RipScriptos/FlowCo.git
 cd FlowCo
+```
 
 # 2. Create virtual environment
+```bash
 python3 -m venv venv
 source venv/bin/activate  # macOS/Linux
 # or: venv\Scripts\activate  # Windows
+```
 
 # 3. Install dependencies
-pip install -r requirements.txt
+```bash
+pip install -r requirements.txt # Windows
+
+pip3 install -r requirements.txt #macOS/Linux
+```
 
 # 4. Configure AI service
+```bash
 cp .env.example .env
 nano .env  # Add your OpenAI API key
+```
 
 # 5. Run FlowCo
+```bash
 python main.py
+```
 
 # 6. Open browser
 # Navigate to: http://localhost:12000
